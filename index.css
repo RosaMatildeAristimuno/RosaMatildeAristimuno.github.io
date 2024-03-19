@@ -927,6 +927,7 @@ section#historia p{
     flex-direction: column;
     width: 100%;
     padding-bottom: 0;
+    padding: 0;
 
 }
 .cajaImg{
@@ -950,7 +951,7 @@ section#historia p{
     border-radius: 25px;
     border: solid 4px #18D145;
     box-shadow: 0 16px 32px rgba(0, 0, 0, 0.34);
-    margin: 5em;
+    margin: 0em;
     margin-top: 2em;
 
 }
@@ -983,6 +984,7 @@ section#historia p{
     padding-top: 0px;
     padding-left: 0;
     padding-right: 0;
+    padding: 0;
     
 
 }
