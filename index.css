@@ -930,7 +930,7 @@ section#historia p{
 
 }
 .cajaImg{
-    padding: 12em;
+    padding: 0em;
     padding-top: 0;
     padding-bottom: 0;
     text-align: center;
@@ -941,6 +941,7 @@ section#historia p{
     height: 12em;
     padding: 0;
     filter: drop-shadow( 2px 5px 10px #000);
+    text-align: center;
 
 }
 .textoValores{
