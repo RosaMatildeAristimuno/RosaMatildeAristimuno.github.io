@@ -622,7 +622,7 @@ footer{
 /*Responsive para teléfonos*/
 
 @media only screen and (max-width: 600px) {
-header{
+    header{
         background-image: url('./header_Background.PNG');
         background-size: cover;
         background-position: center;
@@ -667,7 +667,7 @@ header{
     }
     
 
-/Menú de Navegación/
+/*Menú de Navegación*/
 nav{
 
     text-align: center;
@@ -717,7 +717,7 @@ nav ul li{
     padding-bottom: 1em;
 
 }
-/Estilos Submenú/
+/*Estilos Submenú*/
 ul ul{
     display: none;
     position: absolute;
@@ -755,7 +755,7 @@ ul ul li{
 
 
 
-    /reseña historica/
+    /*reseña historica*/
 
 #historia{
 
@@ -815,7 +815,7 @@ section#historia p{
 
 }
 
-/Mision/
+/*Mision*/
 .itemBoxMision{
 
     display: block;
@@ -885,7 +885,7 @@ section#historia p{
      filter: drop-shadow( 5px 10px 20px #000);
  }
 
- /Vision/
+ /*Vision*/
 
  .itemBoxVision{
     display: flex;
@@ -956,7 +956,7 @@ section#historia p{
    filter: drop-shadow( 5px 10px 20px #000);
 }
 
-/Valores/
+/*Valores*/
 
 .ItemBoxValores{
 
@@ -1017,7 +1017,7 @@ section#historia p{
     padding-top: 0;
 
 }
-/Valores fila 2/
+/*Valores fila 2*/
 .ItemBoxValores2{
 
     display: block;
@@ -1047,7 +1047,7 @@ section#historia p{
     filter: drop-shadow( 2px 5px 10px #000);
     text-align: center;
 }
-/Galería/
+/*Galería*/
 
 .galeria .itemboxGaleria{
 
@@ -1071,7 +1071,7 @@ section#historia p{
     padding-bottom: 2em;
 }
 
-/Ubicación Geográfica/
+/*Ubicación Geográfica*/
 
 .ubicacionimg{
 
@@ -1098,13 +1098,13 @@ section#historia p{
     font-size: 20px;
 
 }
-/Horarios/
+/*Horarios*/
 .tables{
     
     display: block;
 }
 
-/Tabla del Turno de Mañana/
+/*Tabla del Turno de Mañana*/
 .schedule-table {
     padding: 2em;
     max-width: 600px;
@@ -1145,7 +1145,7 @@ section#historia p{
 .schedule-table td:hover {
     background-color: #e6e4e4;
 }
-/Tabla del Turno de Tarde/
+/*Tabla del Turno de Tarde*/
 
 .nigthTurn{
     padding-top: 1em;
@@ -1198,7 +1198,7 @@ section#historia p{
     margin-right: 4em;
 }
 
-/Sección de Contacto/
+/*Sección de Contacto*/
 
 .contact-field-container{
 
@@ -1226,7 +1226,7 @@ footer h2{
 
 }
 
-/Footer/
+/*Footer*/
 footer{
 
     color: #fff;
@@ -1239,7 +1239,6 @@ footer{
     text-align: center;
 
 }
-
 
 
 }
