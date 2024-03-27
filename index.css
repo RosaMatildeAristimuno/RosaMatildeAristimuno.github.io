@@ -629,6 +629,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 38rem;
+    width: 114%;
     display: block;
     align-items: center;
     justify-content: flex-start;
