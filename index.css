@@ -623,7 +623,7 @@ footer{
 
 @media only screen and (max-width: 600px) {
     header{
-        background-image: url('./header_Background.PNG');
+        background-image: url('Background_definitivo.PNG');
         background-size: cover;
         background-position: center;
         height: 38rem;
