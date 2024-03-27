@@ -631,6 +631,7 @@ footer{
         align-items: center;
         justify-content: flex-start;
         color: #052A85;
+        width: 100%;
         
     }
     .itemsHeader{
