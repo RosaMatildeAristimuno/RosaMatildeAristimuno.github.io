@@ -1863,19 +1863,6 @@ footer h2{
 
 }
 
-/*Footer*/
-footer{
-
-    color: #fff;
-    font-weight: bold;
-    padding: 3em;
-    background-color: #052A85;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-
-}
 
 
 }
