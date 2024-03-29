@@ -622,21 +622,20 @@ footer{
 /*Responsive para teléfonos*/
 
 @media only screen and (max-width: 600px) {
-
-/*HEADER*/
-header{
-    background-image: url('Background_definitivo.PNG');
-    background-size: cover;
-    background-position: center;
-    height: 38rem;
-    width: 121%;
-    display: block;
-    align-items: center;
-    justify-content: flex-start;
-    color: #052A85;
-    
-}
-.itemsHeader{
+ header{
+        background-image: url('./header_Background.PNG');
+        background-size: cover;
+        background-position: center;
+        height: 38rem;
+        display: block;
+        align-items: center;
+        justify-content: flex-start;
+        color: #052A85;
+        width: 121%;
+        
+        
+    }
+    .itemsHeader{
     
         text-align: center;
         display: block;
@@ -756,237 +755,492 @@ ul ul li{
     display: list-item;
 }
 
-    /*Secciones*/
 
-    /*Reseña Histórica*/
-    #historia {
-        margin-top: 3em;
-        padding-top: 4em;
-    }
 
-    .ItemBox,
-    .ItemBox2 {
-        display: block;
-        margin: 0 auto;
-        border: solid 4px #052A85;
-        border-radius: 80px;
-        background-color: #F7DC6F;
-        align-items: center;
-        margin-bottom: 4em;
-    }
+    /*reseña historica*/
 
-    .ItemBox img,
-    .ItemBox2 img {
-        height: 10em;
-        border-radius: 50%;
-        margin: 1em auto;
-    }
+#historia{
 
-    section#historia p {
-        text-align: justify;
-        font-weight: bold;
-        text-indent: 2em;
-        padding: 1em;
-        font-size: 16px;
-        color: #052A85;
-    }
+    margin-top: 3em;
+    padding-top: 7em;
 
-    /*Misión y Visión*/
+}
+.ItemBox{
+    display: block;
+    margin-right: 0em;
+    border:solid 4px #052A85;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    gap: 1em;
+    background-color: #F7DC6F ;
+    align-items: center;
+    margin-bottom: 7em;
+    text-align: center;
+}
+.ItemBox2{
+    display: block;
+    margin-left: 0em;
+    border:solid 4px #052A85;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    gap: 1em;
+    background-color: #F7DC6F ;
+    align-items: center;
+    margin-right: 0em;
+    text-align: center;
+}
 
-    .itemBoxMision,
-    .itemBoxVision {
-        display: block;
-        align-items: center;
-        justify-content: space-around;
-        padding: 2em;
-    }
+section#historia p{
 
-    .cajaMision,
-    .cajaVision {
-        text-align: center;
-        margin: 0 auto;
-        padding: 2em;
-        font-size: 16px;
-    }
+    text-align: justify;
+    font-weight: bold;
+    text-indent: 2em;
+    padding: 1em;
+    font-size: 20px;
+    color: #052A85;
 
-    .imagenMision,
-    .imagenVision {
-        padding: 0;
-        width: 100%;
-    }
+}
+.ItemBox img{
 
-    .imagenMision img,
-    .imagenVision img {
-        height: auto;
-        width: 80%;
-        padding-bottom: 2em;
-        filter: drop-shadow(5px 10px 20px #000);
-    }
+    height: 13em;
+    border-radius: 15%;
+    margin-left: 1em;
+    padding-top: 1em;
 
-    .textoMision h2,
-    .textoVision h2 {
-        margin-top: 1em;
-        font-size: 18px;
-    }
+}
+.ItemBox2 img{
 
-    .textoMision p,
-    .textoVision p {
-        margin-top: 1em;
-        font-size: 16px;
-    }
+    height: 13em;
+    border-radius: 15%;
+    margin-left: 1em;
+    padding-top: 1em;
 
-    /*Valores*/
+}
 
-    .ItemBoxValores,
-    .ItemBoxValores2 {
-        display: block;
-        justify-content: space-around;
-        align-items: center;
-        padding-left: 0em;
-    }
+/*Mision*/
+.itemBoxMision{
 
-    .cajaValores {
-        padding: 2em;
-        font-size: 16px;
-    }
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0em;
+    padding-right: 1em;
+    padding-bottom: 0;
+    padding-top: 2em;
+ 
+ }
+ 
+ .cajaMision{
+ 
+     text-align: center;
+     margin: 0 auto;
+     padding: 0em;
+     padding-right: 0;
+     font-size: 20px;
+     padding-bottom: 0;
+     padding-top: 0em;
+     padding-left: 0em;
+  
+ }
+ 
+ .textoMision{
+ 
+     background-color: #ECF0F1;
+     border-radius: 25px;
+     border: solid 8px #052A85;
+     box-shadow: 0 16px 32px rgba(0, 0, 0, 0.34);
+     width: 100%;
+     
+ }
+ .textoMision h2{
+ 
+     margin: 0;
+     margin-top: 0.5em;
+     color: #000;
+ 
+ }
+ 
+ .textoMision p{
+     margin: 1em;
+     margin-top: 0em;
+     padding: 20px 50px;
+     text-align: center;
+     margin-bottom: 3em;
+     font-size: 20px;
+     color: #052A85;
+ 
+ } 
+ 
+ .imagenMision{
+ 
+     padding: 10em;
+     padding-right: 0em;
+     padding-bottom: 0em;
+     width: 100%;
+     padding-left: 0em;
+     padding-top: 1em;
+ }
+ 
+ .imagenMision img{
+ 
+     padding-bottom: 11em;
+     filter: drop-shadow( 5px 10px 20px #000);
+ }
 
-    .cajaImg {
-        padding: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-        text-align: center;
-    }
+ /*Vision*/
 
-    .cajaValores img {
-        height: 8em;
-        padding: 0;
-        filter: drop-shadow(2px 5px 10px #000);
-    }
+ .itemBoxVision{
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 0em;
+   padding-top: 5em;
+   width: 100%;
+   flex-direction: column-reverse;
 
-    .textoValores h3 {
-        font-size: 18px;
-    }
+}
 
-    .textoValores p {
-        font-size: 16px;
-    }
+.imagenVision{
 
-    /*Galería*/
+    padding: 10em;
+    padding-left: 0em;
+    padding-top: 0;
+    width: 100%;
+    padding-right: 0;
+    
+}
 
-    .galeria .itemboxGaleria {
-        display: block;
-        margin-left: 0em;
-        margin-right: 0em;
-        margin-bottom: 2em;
-    }
+.cajaVision{
 
-    .itemboxGaleria img {
-        height: auto;
-        width: 100%;
-        border: 3px solid #000;
-        filter: drop-shadow(2px 5px 10px #000);
-    }
+    text-align: center;
+    margin: 0 auto;
+    padding: 10em;
+    padding-left: 0;
+    font-size: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 2em;
+    
+}
 
-    /*Ubicación Geográfica*/
+.textoVision{
 
-    .ubicacionimg {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        filter: drop-shadow(5px 10px 20px #000);
-    }
+    background-color: #ECF0F1;
+    border-radius: 25px;
+    border: solid 8px #052A85;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.34);
 
-    .ubicacionp {
-        padding: 2em;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
+    
+}
 
-    #ubicacion p {
-        padding-left: 0rem;
-        padding-right: 0rem;
-        text-align: center;
-        color: #052A85;
-        font-weight: bold;
-        font-size: 16px;
-    }
+.textoVision h2{
 
-    /*Horarios*/
+    margin: 0;
+    margin-top: 0.5em;
+    color: #000;
 
-    .tables {
-        display: block;
-    }
+}
 
-    .schedule-table,
-    .schedule-table2 {
-        padding: 1em;
-        max-width: 600px;
-        overflow-x: auto;
-    }
+.textoVision p{
+    margin: 1em;
+    margin-top: 0em;
+    padding: 20px 50px;
+    text-align: center;
+    margin-bottom: 3em;
+    font-size: 25px;
+    color: #052A85;
 
-    .schedule-table table,
-    .schedule-table2 table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 10px;
-        border-radius: 30px;
-        overflow: hidden;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        background-color: #fff;
-    }
+} 
+.imagenVision img{
+   
+   height: 35em;
+   padding-bottom: 3em;
+   filter: drop-shadow( 5px 10px 20px #000);
+}
 
-    .schedule-table th,
-    .schedule-table td,
-    .schedule-table2 th,
-    .schedule-table2 td {
-        padding: 10px;
-        border: 1px solid #ddd;
-        text-align: center;
-        font-size: 14px;
-    }
+/*Valores*/
 
-    .schedule-table th,
-    .schedule-table2 th {
-        font-size: 16px;
-    }
+.ItemBoxValores{
 
-    .schedule-table td:hover,
-    .schedule-table2 td:hover {
-        background-color: #e6e4e4;
-    }
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0em;
 
-    .contact-field-container {
-        display: block;
-        padding-left: 0em;
-        padding-right: 0em;
-    }
+}
+.cajaValores{
 
-    .contact-field {
-        text-align: center;
-        padding: 1em;
-    }
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 0;
+    padding: 0em;
+    padding-top: 5em;
 
-    .contact-field a {
-        text-decoration: none;
-        color: #fff;
-    }
+}
+.cajaImg{
+    padding: 0em;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
 
-    .contact-field p span {
-        font-weight: bold;
-    }
+}
+.cajaValores img{
 
-    .contact-field img {
-        width: 40px;
-    }
+    height: 12em;
+    padding: 0;
+    filter: drop-shadow( 2px 5px 10px #000);
+    text-align: center;
 
-    footer h2 {
-        font-size: 18px;
-    }
+}
+.textoValores{
 
-    /*Footer*/
+    background-color: #ECF0F1;
+    border-radius: 25px;
+    border: solid 4px #18D145;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.34);
+    margin: 0em;
+    margin-top: 0em;
 
-    footer {
-        padding: 2em;
-        width: 103.5%;
-    }
+}
+.textoValores h3{
+
+    text-align: center;
+    color: #052A85;
+    font-size: 1.5em;
+
+}
+.textoValores p{
+
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    padding: 2em;
+    padding-top: 0;
+
+}
+/*Valores fila 2*/
+.ItemBoxValores2{
+
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.ItemBoxValores2 .cajaValores{
+    padding: 0em;
+    padding-top: 5em;
+    padding-left: 0;
+    padding-right: 0;
+    
+
+}
+.ItemBoxValores2 .cajaImg{
+
+    padding: 0em;
+    padding-top: 0;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+.ItemBoxValores2 img{
+
+    height: 12em;
+    filter: drop-shadow( 2px 5px 10px #000);
+    text-align: center;
+}
+/*Galería*/
+
+.galeria .itemboxGaleria{
+
+    display: block;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+
+}
+.itemboxGaleria img{
+
+    height: 20rem;
+    margin: 0;
+    width: 100%;
+    border: 3px solid #000;
+    filter: drop-shadow( 2px 5px 10px #000);
+
+}
+.itemboxGaleria .cardimg{
+
+    padding-bottom: 2em;
+}
+
+/*Ubicación Geográfica*/
+
+.ubicacionimg{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow( 5px 10px 20px #000);
+
+}
+.ubicacionp{
+
+    padding: 0em;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+#ubicacion p{
+
+    padding-left:0rem;
+    padding-right: 0rem;
+    text-align: center;
+    color: #052A85;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+/*Horarios*/
+.tables{
+    
+    display: block;
+}
+
+/*Tabla del Turno de Mañana*/
+.schedule-table {
+    padding: 2em;
+    max-width: 600px;
+    overflow-x: auto;
+    padding-bottom: 0em;
+    padding-top: 0em;
+}
+
+.schedule-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.schedule-table th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: #18D145;
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 20px;
+    border-bottom: 2px solid #1C2833;
+}
+
+.schedule-table td {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+.schedule-table td:hover {
+    background-color: #e6e4e4;
+}
+/*Tabla del Turno de Tarde*/
+
+.nigthTurn{
+    padding-top: 1em;
+}
+.schedule-table2 {
+    max-width: 600px;
+    padding: 2em;
+    overflow-x: auto;
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+.schedule-table2 table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.schedule-table2 th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.schedule-table2 th {
+    background-color: #F1C40F;
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 20px;
+    border-bottom: 2px solid #1C2833;
+}
+
+.schedule-table2 td {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+.schedule-table2 td:hover {
+    background-color: #e6e4e4;
+}
+.contact-field-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    margin-right: 4em;
+}
+
+/*Sección de Contacto*/
+
+.contact-field-container{
+
+    display: block;
+    padding-left: 5em;
+}
+
+.contact-field{
+    text-align: center;
+}
+.contact-field a{
+    text-decoration: none;
+    color: #fff;
+}
+.contact-field p span{
+    font-weight: bold;
+}
+.contact-field img{
+    width: 40px;
+}
+footer h2{
+
+    color: #fff;
+    text-align: center;
+
+}
+
+/*Footer*/
+footer{
+
+    color: #fff;
+    font-weight: bold;
+    padding: 3em;
+    background-color: #052A85;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 107%;
+}
+
+
 }
