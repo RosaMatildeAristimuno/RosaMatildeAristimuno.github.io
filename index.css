@@ -6,8 +6,9 @@ body{
     background-color: #fff;
 
 }
+
 header{
-    background-image: url('Background_definitivo.PNG');
+    background-image: url('./header_Background.PNG');
     background-size: cover;
     background-position: center;
     height: 38rem;
@@ -171,7 +172,7 @@ section h2{
     border-top-left-radius: 80px;
     border-bottom-left-radius: 80px;
     gap: 1em;
-    background-color: #F7DC6F ;
+    background-color: #F7DC6F;
     align-items: center;
 }
 
@@ -209,7 +210,7 @@ section#historia p{
     padding: 0em;
     padding-right: 10em;
     padding-bottom: 0;
-    padding-top: 1em;
+    padding-top: 5em;
  
  }
  
@@ -231,7 +232,7 @@ section#historia p{
      border-radius: 25px;
      border: solid 8px #052A85;
      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.34);
-     width: 100%;
+     
      
  }
  .textoMision h2{
@@ -619,14 +620,12 @@ footer{
 
 }
 
-/*Responsive para teléfonos*/
-
 @media only screen and (max-width: 600px) {
- * {
-    overflow-x: hidden;
-}
- header{
-        background-image: url('Background_definitivo.PNG');
+     *{
+        overflow-x: hidden;
+    }
+    header{
+        background-image: url('./header_Background.PNG');
         background-size: cover;
         background-position: center;
         height: 38rem;
@@ -634,7 +633,7 @@ footer{
         align-items: center;
         justify-content: flex-start;
         color: #052A85;
-        /*width: 121%;*/
+        width: 100%;
         
         
     }
@@ -827,66 +826,66 @@ section#historia p{
     align-items: center;
     justify-content: space-around;
     padding: 0em;
-    padding-right: 1em;
+    padding-right: 0em;
     padding-bottom: 0;
     padding-top: 2em;
+    width: 100%;
  
  }
  
  .cajaMision{
- 
-     text-align: center;
-     margin: 0 auto;
-     padding: 0em;
-     padding-right: 0;
-     font-size: 20px;
-     padding-bottom: 0;
-     padding-top: 0em;
-     padding-left: 0em;
+    text-align: center;
+    margin: 0;
+    padding: 0em;
+    padding-left: 0;
+    font-size: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 2em;
+    
   
  }
  
  .textoMision{
  
-     background-color: #ECF0F1;
-     border-radius: 25px;
-     border: solid 8px #052A85;
-     box-shadow: 0 16px 32px rgba(0, 0, 0, 0.34);
-     width: 100%;
+    background-color: #ECF0F1;
+    border-radius: 25px;
+    border: solid 8px #052A85;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.34);
      
  }
  .textoMision h2{
  
-     margin: 0;
-     margin-top: 0.5em;
-     color: #000;
+    margin: 0;
+    margin-top: 0.5em;
+    color: #000;
+    padding: 0;
  
  }
  
  .textoMision p{
-     margin: 1em;
-     margin-top: 0em;
-     padding: 20px 50px;
-     text-align: center;
-     margin-bottom: 3em;
-     font-size: 20px;
-     color: #052A85;
+    margin: 1em;
+    margin-top: 0em;
+    padding: 20px 50px;
+    text-align: center;
+    margin-bottom: 3em;
+    font-size: 25px;
+    color: #052A85;
  
  } 
  
  .imagenMision{
  
-     padding: 10em;
-     padding-right: 0em;
-     padding-bottom: 0em;
-     width: 100%;
-     padding-left: 0em;
-     padding-top: 1em;
+    padding: 10em;
+    padding-left: 0em;
+    padding-top: 0;
+    width: 100%;
+    padding-right: 0;
  }
  
  .imagenMision img{
  
-     padding-bottom: 11em;
+     padding-bottom: 5em;
      filter: drop-shadow( 5px 10px 20px #000);
  }
 
@@ -910,6 +909,7 @@ section#historia p{
     padding-top: 0;
     width: 100%;
     padding-right: 0;
+    padding-bottom: 0em;
     
 }
 
@@ -1060,13 +1060,15 @@ section#historia p{
     margin-left: 0em;
     margin-right: 0em;
     margin-bottom: 0em;
+    align-items: center;
 
 }
 .itemboxGaleria img{
 
     height: 20rem;
     margin: 0;
-    width: 100%;
+    width: 90%;
+    text-align: center;
     border: 3px solid #000;
     filter: drop-shadow( 2px 5px 10px #000);
 
@@ -1074,6 +1076,8 @@ section#historia p{
 .itemboxGaleria .cardimg{
 
     padding-bottom: 2em;
+    margin: 0;
+    padding-left: 3em;
 }
 
 /*Ubicación Geográfica*/
@@ -1236,13 +1240,13 @@ footer{
 
     color: #fff;
     font-weight: bold;
-    padding: 3em;
+    padding: 1em;
     background-color: #052A85;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    /*width: 107%;*/
+
 }
 
 
