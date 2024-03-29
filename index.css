@@ -623,7 +623,7 @@ footer{
 
 @media only screen and (max-width: 600px) {
  header{
-        background-image: url('./header_Background.PNG');
+        background-image: url('Background_definitivo.PNG');
         background-size: cover;
         background-position: center;
         height: 38rem;
@@ -631,7 +631,7 @@ footer{
         align-items: center;
         justify-content: flex-start;
         color: #052A85;
-        width: 121%;
+        /*width: 121%;*/
         
         
     }
@@ -1239,7 +1239,7 @@ footer{
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    width: 107%;
+    /*width: 107%;*/
 }
 
 
