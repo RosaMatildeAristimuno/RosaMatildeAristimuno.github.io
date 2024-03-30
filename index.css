@@ -1199,6 +1199,7 @@ section#historia p{
 .schedule-table2 td:hover {
     background-color: #e6e4e4;
 }
+/*Sección de Contacto*/
 .contact-field-container{
     display: flex;
     justify-content: space-around;
@@ -1208,7 +1209,6 @@ section#historia p{
     margin-right: 0em;
 }
 
-/*Sección de Contacto*/
 
 .contact-field-container{
 
