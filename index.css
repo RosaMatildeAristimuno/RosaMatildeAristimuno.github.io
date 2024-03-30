@@ -750,7 +750,7 @@ ul .menuVertical{
 
 }
 ul li:hover > ul{
-    display: inherit;
+    display: none;
 }
 ul ul li{
     position: relative;
@@ -1142,13 +1142,13 @@ section#historia p{
     background-color: #18D145;
     color: #fff;
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     border-bottom: 2px solid #1C2833;
 }
 
 .schedule-table td {
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #333;
 }
 .schedule-table td:hover {
@@ -1160,7 +1160,7 @@ section#historia p{
     padding-top: 1em;
 }
 .schedule-table2 {
-    max-width: 600px;
+    max-width: 100%;
     padding: 2em;
     overflow-x: auto;
     padding-top: 0em;
@@ -1168,6 +1168,7 @@ section#historia p{
 }
 .schedule-table2 table {
     width: 0%;
+    margin-left: 2em;
     border-collapse: collapse;
     margin-top: 10px;
     border-radius: 30px;
@@ -1186,13 +1187,13 @@ section#historia p{
     background-color: #F1C40F;
     color: #fff;
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     border-bottom: 2px solid #1C2833;
 }
 
 .schedule-table2 td {
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #333;
 }
 .schedule-table2 td:hover {
@@ -1221,6 +1222,7 @@ section#historia p{
 .contact-field a{
     text-decoration: none;
     color: #fff;
+    font-size: 14px;
 }
 .contact-field p span{
     font-weight: bold;
