@@ -1129,12 +1129,13 @@ section#historia p{
     .schedule-table td {
         white-space: nowrap;
         font-size: 14px; 
+        padding: 0px;
     }
 
     .schedule-table th {
         font-size: 16px; 
     }
-}
+    
 /*Tabla del Turno de Tarde*/
 
  .schedule-table2 {
@@ -1151,6 +1152,7 @@ section#historia p{
     .schedule-table2 td {
         white-space: nowrap;
         font-size: 14px; 
+        padding: 0px;
     }
 
     .schedule-table2 th {
