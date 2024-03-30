@@ -1114,45 +1114,26 @@ section#historia p{
 }
 
 /*Tabla del Turno de Mañana*/
-.schedule-table {
-    padding: 2em;
-    max-width: 600px;
-    overflow-x: auto;
-    padding-bottom: 0em;
-    padding-top: 0em;
-}
 
-.schedule-table table {
-    width: 0%;
-    border-collapse: collapse;
-    margin-top: 10px;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-}
+ .schedule-table {
+        padding: 0;
+        overflow-x: scroll;
+    }
 
-.schedule-table th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: center;
-}
+    .schedule-table table {
+        width: 100%;
+        margin-left: 0;
+    }
 
-.schedule-table th {
-    background-color: #18D145;
-    color: #fff;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-size: 18px;
-    border-bottom: 2px solid #1C2833;
-}
+    .schedule-table th,
+    .schedule-table td {
+        white-space: nowrap;
+        font-size: 14px; 
+    }
 
-.schedule-table td {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-size: 16px;
-    color: #333;
-}
-.schedule-table td:hover {
-    background-color: #e6e4e4;
+    .schedule-table th {
+        font-size: 16px; 
+    }
 }
 /*Tabla del Turno de Tarde*/
 
