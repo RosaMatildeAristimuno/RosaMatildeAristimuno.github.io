@@ -828,7 +828,7 @@ section#historia p{
     padding: 0em;
     padding-right: 0em;
     padding-bottom: 0;
-    padding-top: 2em;
+    padding-top: 10em;
     width: 100%;
  
  }
@@ -885,7 +885,7 @@ section#historia p{
  
  .imagenMision img{
  
-     padding-bottom: 5em;
+     padding-bottom: 0em;
      filter: drop-shadow( 5px 10px 20px #000);
  }
 
