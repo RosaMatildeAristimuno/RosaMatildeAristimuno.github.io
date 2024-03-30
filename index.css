@@ -1123,7 +1123,7 @@ section#historia p{
 }
 
 .schedule-table table {
-    width: 100%;
+    width: 0%;
     border-collapse: collapse;
     margin-top: 10px;
     border-radius: 30px;
@@ -1167,7 +1167,7 @@ section#historia p{
     padding-bottom: 0em;
 }
 .schedule-table2 table {
-    width: 100%;
+    width: 0%;
     border-collapse: collapse;
     margin-top: 10px;
     border-radius: 30px;
@@ -1204,7 +1204,7 @@ section#historia p{
     align-items: center;
     padding: 20px;
     width: 100%;
-    margin-right: 4em;
+    margin-right: 0em;
 }
 
 /*Sección de Contacto*/
