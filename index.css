@@ -1133,7 +1133,7 @@ section#historia p{
 }
 
 .schedule-table th, td {
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
 }
@@ -1178,7 +1178,7 @@ section#historia p{
 }
 
 .schedule-table2 th, td {
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
 }
