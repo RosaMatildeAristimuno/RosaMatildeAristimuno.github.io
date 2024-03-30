@@ -1156,48 +1156,25 @@ section#historia p{
 }
 /*Tabla del Turno de Tarde*/
 
-.nigthTurn{
-    padding-top: 1em;
-}
-.schedule-table2 {
-    max-width: 100%;
-    padding: 2em;
-    overflow-x: auto;
-    padding-top: 0em;
-    padding-bottom: 0em;
-}
-.schedule-table2 table {
-    width: 0%;
-    margin-left: 2em;
-    border-collapse: collapse;
-    margin-top: 10px;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-}
+ .schedule-table2 {
+        padding: 0;
+        overflow-x: scroll;
+    }
 
-.schedule-table2 th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: center;
-}
+    .schedule-table2 table {
+        width: 100%;
+        margin-left: 0;
+    }
 
-.schedule-table2 th {
-    background-color: #F1C40F;
-    color: #fff;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-size: 18px;
-    border-bottom: 2px solid #1C2833;
-}
+    .schedule-table2 th,
+    .schedule-table2 td {
+        white-space: nowrap;
+        font-size: 14px; 
+    }
 
-.schedule-table2 td {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-size: 16px;
-    color: #333;
-}
-.schedule-table2 td:hover {
-    background-color: #e6e4e4;
+    .schedule-table2 th {
+        font-size: 16px; 
+    }
 }
 /*Sección de Contacto*/
 .contact-field-container{
