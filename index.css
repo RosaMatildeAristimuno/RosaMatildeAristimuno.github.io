@@ -1115,13 +1115,15 @@ section#historia p{
 
 /*Tabla del Turno de Mañana*/
 
- .schedule-table {
+  .schedule-table {
         padding: 0;
-        overflow-x: scroll;
+        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
     }
 
     .schedule-table table {
-        width: 100%;
+        width: 0%;
         margin-left: 0;
     }
 
@@ -1129,6 +1131,8 @@ section#historia p{
     .schedule-table td {
         white-space: nowrap;
         font-size: 14px; 
+        padding-left: 0.5em;
+        padding-right: 0.5em;
     }
 
     .schedule-table th {
@@ -1160,7 +1164,6 @@ section#historia p{
     .schedule-table2 th {
         font-size: 16px; 
     }
-}
 /*Sección de Contacto*/
 .contact-field-container{
     display: flex;
