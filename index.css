@@ -1151,6 +1151,8 @@ section#historia p{
     .schedule-table2 td {
         white-space: nowrap;
         font-size: 14px; 
+        padding-left: 0em;
+        padding-right: 0em;
     }
 
     .schedule-table2 th {
